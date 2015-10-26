@@ -1,0 +1,17 @@
+apply plugin: 'scala'
+apply plugin: 'eclipse'
+
+group = 'com.gstasica'
+version = '0.0.1'
+
+sourceCompatibility = 1.8
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+	compile 'org.scala-lang:scala-library:2.11.1'
+}
